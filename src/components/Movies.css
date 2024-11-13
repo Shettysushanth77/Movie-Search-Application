@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main{
+ /* border: 3px solid red; */
+ height: 2000px;
+ width: 100%;
+ display: flex;
+ /* justify-content: center; */
+ align-items: center;
+ flex-direction: column;
+ background-color: #191a1c;
+}
+.topsection{
+    border: 3px solid #09090972;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1d2011;
+
+}
+.heading{
+    /* border: 3px solid #a3cc10; */
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.heading h1{
+    padding-left: 30px;
+    font-size: 50px;
+    font-weight: 700px;
+    color: #00ffc4;
+}
+.searchbar{
+    /* border: 3px solid #14e12c; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 50px;
+    /* gap: 20px; */
+
+    
+}
+input{
+    background-color: #333535e0;
+    color:#00ffc4;
+    font-weight: 700px;
+    border: none;
+    padding-left: 20px;
+}
+button{
+    background-color:#00ffc4;
+}
+h1,h3 {
+    color:#00ffc4;
+    font-weight: 700px;
+
+}
+.searchbar input{
+height: 50px;
+width: 400px;
+font-size: 24px;
+border-radius: 10px;
+outline: none;
+}
+.searchbar button{
+    height: 50px;
+    width: 150px;
+    font-size: 24px;
+    border-radius: 10px;
+
+
+}
+.cards{
+    height: 100%;
+    width: inherit;
+    /* border: 3px solid #ea9a9a; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 50px;
+    /* flex-direction: column; */
+}
+.cards ul{
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.cards ul li{
+    list-style: none;
+}
+.contents{
+    height: 400px;
+    width: 300px;
+    border: 1px solid #00ffc4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #33343517;
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+p{
+    /* height: 100px; */
+    color: #00ffc4;
+    font-size: 24px;
+    padding-top: 50px;
+}
